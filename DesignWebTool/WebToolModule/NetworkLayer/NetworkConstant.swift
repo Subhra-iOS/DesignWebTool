@@ -20,17 +20,23 @@ protocol NetworkRequestProtocol {
 struct NetworkRequest: NetworkRequestProtocol {
     
      let url: URL
-     let header: [String: String]
-     let param: [String: Any]
+     let header: [String: String]?
+     let param: [String: Any]?
      let method: String
     
     var httpRequest: URLRequest{
         
-        let request = URLRequest(url: url, cachePolicy: URLRequest.CachePolicy.reloadIgnoringLocalAndRemoteCacheData, timeoutInterval: 120.0)
-        
-       /* request.httpBody = try? JSONSerialization.data(withJSONObject: param, options: JSONSerialization.WritingOptions.fragmentsAllowed)
+        var request = URLRequest(url: url, cachePolicy: URLRequest.CachePolicy.reloadIgnoringLocalAndRemoteCacheData, timeoutInterval: 120.0)
         request.httpMethod = method.uppercased()
-        request.allHTTPHeaderFields = header*/
+        
+        if let _header = header {
+            request.allHTTPHeaderFields = _header
+        }
+        
+        if let _param = param{
+          request.httpBody = try? JSONSerialization.data(withJSONObject: _param, options: JSONSerialization.WritingOptions.fragmentsAllowed)
+        }
+        
         return request
     }
      

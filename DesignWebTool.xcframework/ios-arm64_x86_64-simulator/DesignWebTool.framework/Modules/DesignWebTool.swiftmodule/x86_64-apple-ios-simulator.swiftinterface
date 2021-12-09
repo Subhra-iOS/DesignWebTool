@@ -7,7 +7,7 @@ import Swift
 import UIKit
 import WebKit
 public struct WebToolModel {
-  public init(url: Foundation.URL, header: [Swift.String : Swift.String], param: [Swift.String : Any], method: Swift.String)
+  public init(url: Foundation.URL, header: [Swift.String : Swift.String]? = nil, param: [Swift.String : Any]? = nil, method: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers public class DesignWebToolViewController : UIKit.UIViewController {
   @objc override dynamic public func viewDidLoad()

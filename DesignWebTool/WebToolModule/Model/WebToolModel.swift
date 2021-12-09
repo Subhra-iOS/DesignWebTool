@@ -9,11 +9,11 @@ import Foundation
 
 public struct WebToolModel {
      let url: URL
-     let header: [String: String]
-     let param: [String: Any]
+     let header: [String: String]?
+     let param: [String: Any]?
      let method: String
     
-    public init(url: URL, header: [String: String], param: [String: Any], method: String){
+    public init(url: URL, header: [String: String]? = nil, param: [String: Any]? = nil, method: String){
         self.url = url
         self.header = header
         self.param = param
