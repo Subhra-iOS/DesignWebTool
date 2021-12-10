@@ -7,7 +7,10 @@ import Swift
 import UIKit
 import WebKit
 public struct WebToolModel {
-  public init(url: Foundation.URL, header: [Swift.String : Swift.String]? = nil, param: [Swift.String : Any]? = nil, method: Swift.String)
+  public init(url: Foundation.URL, header: [Swift.String : Swift.String]? = nil, param: [Swift.String : Any]? = nil, method: Swift.String, uiModel: DesignWebTool.UIModel = UIModel(navBarColor: UIColor.systemBackground, navBarTextColor: UIColor.secondarySystemBackground, dismissBtnText: "Back", navBarTitle: "Design Tool"))
+}
+public struct UIModel {
+  public init(navBarColor: UIKit.UIColor, navBarTextColor: UIKit.UIColor, dismissBtnText: Swift.String, navBarTitle: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers public class DesignWebToolViewController : UIKit.UIViewController {
   @objc override dynamic public func viewDidLoad()
@@ -32,7 +35,7 @@ extension DesignWebToolViewController : WebKit.WKNavigationDelegate, WebKit.WKSc
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class SharedDesignToolController : DesignWebTool.DesignWebToolViewController {
   @objc override dynamic public init(nibName nibNameOrNil: Swift.String? = nil, bundle nibBundleOrNil: Foundation.Bundle? = nil)
-  final public func set(model: DesignWebTool.WebToolModel, delegate: DesignWebTool.NavigationProtocol?, navigationColor: UIKit.UIColor, navigationTextColor: UIKit.UIColor)
+  final public func set(model: DesignWebTool.WebToolModel, delegate: DesignWebTool.NavigationProtocol?)
   @objc deinit
 }
 public enum Status {

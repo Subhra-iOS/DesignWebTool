@@ -6,7 +6,7 @@
 	<dict>
 		<key>DesignWebToolViewController.nib</key>
 		<data>
-		H0BM0UYC1g+FbVrZ6FCTqv0YHF4=
+		1eu0rpTGZPwm8uyTopuL7O9q4eQ=
 		</data>
 		<key>Headers/DesignWebTool-Swift.h</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		WGR7AgpNWc0RdTrm+M6vFdzFusQ=
+		do8dy8YZ1HT0We7xAn41d/+kQqo=
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		kH/EejHj+wj0I5sm4i6JZmEyn3c=
+		TUkM1CRMSMs20X+I/89s4piLaDE=
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		WGR7AgpNWc0RdTrm+M6vFdzFusQ=
+		do8dy8YZ1HT0We7xAn41d/+kQqo=
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		kH/EejHj+wj0I5sm4i6JZmEyn3c=
+		TUkM1CRMSMs20X+I/89s4piLaDE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VLhJF8ampy8HhohGapfqOkCGCS8TY7Vds5TYyBncUcs=
+			6NGCPj14ENSbZFInnWOcu3fj7qCUQ83xGksxj21MeaY=
 			</data>
 		</dict>
 		<key>Headers/DesignWebTool-Swift.h</key>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2/JreamLNgP8owOB+Bow9LlhvUDbrdIgPUKIwsWp1wU=
+			Bx+n+qUoTXWoWthQArkkB03P84Plw9ieCspq2r81RoI=
 			</data>
 		</dict>
 		<key>Modules/DesignWebTool.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5XTaXGaeWtzGiMZAW+QqudKUkqlpy6f6qc83v46z3C8=
+			ZKu+r+/vQ2lt2WNoJ+CtWZMs2TM2iQ8H6iO9RJwUNzg=
 			</data>
 		</dict>
 		<key>Modules/DesignWebTool.swiftmodule/arm64.swiftdoc</key>
@@ -104,14 +104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2/JreamLNgP8owOB+Bow9LlhvUDbrdIgPUKIwsWp1wU=
+			Bx+n+qUoTXWoWthQArkkB03P84Plw9ieCspq2r81RoI=
 			</data>
 		</dict>
 		<key>Modules/DesignWebTool.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5XTaXGaeWtzGiMZAW+QqudKUkqlpy6f6qc83v46z3C8=
+			ZKu+r+/vQ2lt2WNoJ+CtWZMs2TM2iQ8H6iO9RJwUNzg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
