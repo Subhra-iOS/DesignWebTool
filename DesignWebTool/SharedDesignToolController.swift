@@ -15,10 +15,8 @@ public final class SharedDesignToolController: DesignWebToolViewController{
     }
     
     public override func set( model: WebToolModel,
-                     delegate: NavigationProtocol?,
-                     navigationColor: UIColor,
-                     navigationTextColor: UIColor){
-        super.set(model: model, delegate: delegate, navigationColor: navigationColor, navigationTextColor: navigationTextColor)
+                     delegate: NavigationProtocol?){
+        super.set(model: model, delegate: delegate)
     }
     
     required init?(coder: NSCoder) {

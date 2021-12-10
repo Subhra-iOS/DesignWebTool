@@ -17,38 +17,38 @@ public class DesignWebToolViewController: UIViewController {
     private var navigationBarColor: UIColor = .white
     private var navigationTextColor: UIColor = .black
     
-    private var designTitle: String {
-         "Design Tool"
+    
+    private var designTitle: String = "" {
+        didSet{
+            self.title = designTitle
+        }
     }
     
     private func setupNavigationLeftButton(){
-        self.navigationItem.leftBarButtonItem = FactoryController.creatLeftBarItem(for: self, title: "Back")
+        self.navigationItem.leftBarButtonItem = FactoryController.creatLeftBarItem(for: self, title: "Back", tintColor: navigationTextColor)
         self.navigationItem.leftBarButtonItem?.isAccessibilityElement = true
         self.navigationItem.leftBarButtonItem?.accessibilityIdentifier = "Cancel_Button_Identifier"
         self.navigationItem.leftBarButtonItem?.tintColor = navigationTextColor
     }
     
     private func setNavigationBar(){
-        self.title = designTitle
     
         UINavigationBar.appearance().barTintColor = navigationBarColor
         UINavigationBar.appearance().tintColor = navigationBarColor
-        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: navigationTextColor]
         UINavigationBar.appearance().isTranslucent = false
-        let attributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 17, weight: .bold),NSAttributedString.Key.foregroundColor: navigationTextColor]
-        UINavigationBar.appearance().titleTextAttributes = attributes
-        UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 17, weight: .bold)], for: .normal)
+        let textAttributes = [NSAttributedString.Key.foregroundColor:navigationTextColor]
+        self.navigationController?.navigationBar.titleTextAttributes = textAttributes
+
         
     }
     
     func set( model: WebToolModel,
-              delegate: NavigationProtocol?,
-              navigationColor: UIColor,
-              navigationTextColor: UIColor){
+              delegate: NavigationProtocol?){
         self.model = model
         self.navigationDelegate = delegate
-        self.navigationBarColor = navigationColor
-        self.navigationTextColor = navigationTextColor
+        self.navigationBarColor = model.uiModel.navBarColor
+        self.navigationTextColor = model.uiModel.navBarTextColor
+        self.designTitle = model.uiModel.navBarTitle
     }
     
     public override func viewDidLoad() {

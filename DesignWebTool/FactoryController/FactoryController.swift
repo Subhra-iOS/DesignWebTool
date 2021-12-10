@@ -11,8 +11,8 @@ import WebKit
 
 struct FactoryController {
     
-    static func creatLeftBarItem(for action: SRBarButtonItemProtocol, title: String) -> SRNavigationButtonItem{
-        let cancelBtn: SRNavigationButtonItem = SRNavigationButtonItem(backBarItemTitle: title, actionDelegate: action as! UIViewController)
+    static func creatLeftBarItem(for action: SRBarButtonItemProtocol, title: String, tintColor: UIColor) -> SRNavigationButtonItem{
+        let cancelBtn: SRNavigationButtonItem = SRNavigationButtonItem(backBarItemTitle: title, actionDelegate: action as! UIViewController, textColor: tintColor)
         return cancelBtn
     }
     

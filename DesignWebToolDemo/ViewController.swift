@@ -17,8 +17,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [weak self] in
+        self.title = "Home"
+        let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+        self.navigationController?.navigationBar.titleTextAttributes = textAttributes
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) { [weak self] in
             self?.openDesignTool()
         }
         
@@ -27,10 +29,9 @@ class ViewController: UIViewController {
     private func openDesignTool(){
         let shareDesignTool = SharedDesignToolController()
         shareDesignTool.set(model: WebToolModel(url: URL(string: "https://en.wikipedia.org/wiki/Code_coverage")!,
-            method: "get"),
-            delegate: self,
-            navigationColor: NavigationColor.navColor,
-            navigationTextColor: .white)
+            method: "get",
+            uiModel: UIModel(navBarColor: UIColor.systemBackground, navBarTextColor: UIColor.white, dismissBtnText: "Back", navBarTitle: "Design Tool")),
+            delegate: self)
         self.navigationController?.pushViewController(shareDesignTool, animated: true)
     }
 

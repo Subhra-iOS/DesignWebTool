@@ -29,15 +29,15 @@ class SRNavigationButtonItem : UIBarButtonItem{
     
     public private(set) var rightBarButton : UIButton?
     public private(set) var leftBarButton : UIButton?
-        
+    private let systemBackImageText = "chevron.backward"
     
     
-    convenience init(backBarItemTitle : String, actionDelegate : UIViewController){
+    convenience init(backBarItemTitle : String, actionDelegate : UIViewController, textColor: UIColor){
         
         self.init()
         self.barItemType = .leftBarItem
         self.buttonActionDelegate = actionDelegate as? SRBarButtonItemProtocol
-        setupNavigationBackButton(strTitle: backBarItemTitle, navigationItems: actionDelegate.navigationItem)
+        setupNavigationBackButton(strTitle: backBarItemTitle, navigationItems: actionDelegate.navigationItem, tintColor: textColor)
     }
     
     convenience init(rightItemButton : UIButton, actionDelegate : UIViewController?){
@@ -60,21 +60,21 @@ class SRNavigationButtonItem : UIBarButtonItem{
         
     }
     
-    
-   private func setupNavigationBackButton(strTitle:String, navigationItems:UINavigationItem) {
+    private func setupNavigationBackButton(strTitle:String, navigationItems:UINavigationItem, tintColor: UIColor = UIColor.white) {
         
         let button = UIButton(type: .custom);
         self.leftBarButton = button
-        //button.setImage(UIImage(named: "back"), for: .normal)
-        
+        //let configuration = UIImage.SymbolConfiguration()
+        button.setImage(UIImage(systemName: systemBackImageText), for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 17, weight: .medium)
-        button.setTitleColor(UIColor.white, for: .normal)
+        button.setTitleColor(tintColor, for: .normal)
         button.setTitle(strTitle, for: .normal)
         button.contentHorizontalAlignment = .left
         button.addTarget(self, action: #selector(didTapOnbackBarButton(sender:)), for: .touchUpInside)
         button.frame = CGRect(x: 15, y: 0, width: 70, height: 40)
         button.contentEdgeInsets = UIEdgeInsets.init(top: 0, left: 0, bottom: 0, right: 0)
         button.titleEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        button.tintColor = tintColor
         let btnNext : UIBarButtonItem = UIBarButtonItem(customView: button)
         let btnSpace : UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
         btnSpace.width = -5
