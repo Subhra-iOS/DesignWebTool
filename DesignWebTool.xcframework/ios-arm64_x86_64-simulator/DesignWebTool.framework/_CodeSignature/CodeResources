@@ -6,11 +6,11 @@
 	<dict>
 		<key>DesignWebToolViewController.nib</key>
 		<data>
-		WjIVkIj8ENDfg84QbIHxk7WU1eo=
+		SL1+/KxRCjm9JCkWPXfkKc1cHDs=
 		</data>
 		<key>Headers/DesignWebTool-Swift.h</key>
 		<data>
-		g7y8Mfwj47R/ymW5ui49uKkW2Zw=
+		U2IXazxZ8C2dv0XKXNtkP+++d1U=
 		</data>
 		<key>Headers/DesignWebTool.h</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OLv8QqrqXtitiEx+p+2aOqifHoM=
+		7/uVNI2F9H2R2PF0EO+dxsnBoqw=
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nujLWy1IXH0a4skkx5g+u2z2iUU=
+		aqw0QBIKnB9/1bANh+jV/MrvE1w=
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		OLv8QqrqXtitiEx+p+2aOqifHoM=
+		7/uVNI2F9H2R2PF0EO+dxsnBoqw=
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		nujLWy1IXH0a4skkx5g+u2z2iUU=
+		aqw0QBIKnB9/1bANh+jV/MrvE1w=
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IKX3QKIwfQxFtS0CKJjFcxx3HQQ=
+		1/wjHM0z7W0xyn3oFHvgHEc7+ak=
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MPv57fum8lGhVMJSUGOyVWroYOc=
+		jTZlJrw4Qq590z5m/bW9eTK3nTw=
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		IKX3QKIwfQxFtS0CKJjFcxx3HQQ=
+		1/wjHM0z7W0xyn3oFHvgHEc7+ak=
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		MPv57fum8lGhVMJSUGOyVWroYOc=
+		jTZlJrw4Qq590z5m/bW9eTK3nTw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,14 +79,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S7iaEjvQydnGZDs9G9hDz5BIWol3hljrGRuPbif+tMk=
+			PZiehi9i9+KkceklxUhhm1YJZCBk7G2/P5PIS+NW7EI=
 			</data>
 		</dict>
 		<key>Headers/DesignWebTool-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w6Ku4ZWzxon7lhsHoMiEGr2ftCvt6CXwT5XMSUGQ+qg=
+			5zBqOw4vg/U34Su5KQEM7gV68YvQwdjGJtJZIPsyCCU=
 			</data>
 		</dict>
 		<key>Headers/DesignWebTool.h</key>
@@ -107,14 +107,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8i8b8gTSZ7n6FwrQxbj2tPuCx8OSWKzs/c01r/bt3mk=
+			0Zlr3YjJcklEHAmLLyklnN8BNQWQRxaAY3SevIRd1FE=
 			</data>
 		</dict>
 		<key>Modules/DesignWebTool.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pRSV2nBF48DL2Szrf7cqMJY+2zLeX0OiuVtPPqoSTO4=
+			OqPVEpkcaZkPYQQwtIqPvxuSgw5oXnhfLrdJgj6fLyE=
 			</data>
 		</dict>
 		<key>Modules/DesignWebTool.swiftmodule/arm64.swiftdoc</key>
@@ -128,14 +128,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8i8b8gTSZ7n6FwrQxbj2tPuCx8OSWKzs/c01r/bt3mk=
+			0Zlr3YjJcklEHAmLLyklnN8BNQWQRxaAY3SevIRd1FE=
 			</data>
 		</dict>
 		<key>Modules/DesignWebTool.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pRSV2nBF48DL2Szrf7cqMJY+2zLeX0OiuVtPPqoSTO4=
+			OqPVEpkcaZkPYQQwtIqPvxuSgw5oXnhfLrdJgj6fLyE=
 			</data>
 		</dict>
 		<key>Modules/DesignWebTool.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -149,14 +149,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			smks+AVoV94qMB7/udLyvCjRxX9nMrA3idQJEGyjd3Y=
+			DcCg0UwdXiajBIa056cW9U5rgpzBgRIwr9+4TT2Qa8Q=
 			</data>
 		</dict>
 		<key>Modules/DesignWebTool.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I2Tq+EoR2TTuby53h3eYC+tAy3Kox4iGMFRAB+vONLg=
+			Tqseui+8E0+BaPOi/yhjVz5NOrAdPFFwoQ4j/Zwmab4=
 			</data>
 		</dict>
 		<key>Modules/DesignWebTool.swiftmodule/x86_64.swiftdoc</key>
@@ -170,14 +170,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			smks+AVoV94qMB7/udLyvCjRxX9nMrA3idQJEGyjd3Y=
+			DcCg0UwdXiajBIa056cW9U5rgpzBgRIwr9+4TT2Qa8Q=
 			</data>
 		</dict>
 		<key>Modules/DesignWebTool.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I2Tq+EoR2TTuby53h3eYC+tAy3Kox4iGMFRAB+vONLg=
+			Tqseui+8E0+BaPOi/yhjVz5NOrAdPFFwoQ4j/Zwmab4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

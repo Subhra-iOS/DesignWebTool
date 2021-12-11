@@ -249,7 +249,7 @@ SWIFT_CLASS("_TtC13DesignWebTool27DesignWebToolViewController")
 
 SWIFT_CLASS("_TtC13DesignWebTool26SharedDesignToolController")
 @interface SharedDesignToolController : DesignWebToolViewController
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 @end
 

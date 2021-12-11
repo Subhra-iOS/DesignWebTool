@@ -6,11 +6,11 @@
 	<dict>
 		<key>DesignWebToolViewController.nib</key>
 		<data>
-		Z3x5hj94hMpFVD9aeLMPHQvkLtE=
+		MS7Sw5wl1iK0SE7HfxCGlFue9O4=
 		</data>
 		<key>Headers/DesignWebTool-Swift.h</key>
 		<data>
-		vmsYcq8YJYu07cLTesh2qQM/pJE=
+		VtJFjfJQ2w7bZ1s4l7zSAaUMX/I=
 		</data>
 		<key>Headers/DesignWebTool.h</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		do8dy8YZ1HT0We7xAn41d/+kQqo=
+		OKEvcjmz5fu7lW4Bzl4ItTIEjEc=
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		TUkM1CRMSMs20X+I/89s4piLaDE=
+		bLSTbOCNBaKJb3f9Zx9fjkLqUuU=
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		do8dy8YZ1HT0We7xAn41d/+kQqo=
+		OKEvcjmz5fu7lW4Bzl4ItTIEjEc=
 		</data>
 		<key>Modules/DesignWebTool.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		TUkM1CRMSMs20X+I/89s4piLaDE=
+		bLSTbOCNBaKJb3f9Zx9fjkLqUuU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,14 +55,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			42cdJnCmbNXpfVnd845v7ZDQmmD7OHQGb/C0sDHWfWA=
+			igZyCP89oBMljFvtqksjkuf6SWw31neGCSfhDr1Hs6g=
 			</data>
 		</dict>
 		<key>Headers/DesignWebTool-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3plfn9JxtdYTtVfnvElg9HQUjkLNT9Rdpy9pT06Kyn4=
+			RjvGWHUoTg2I/wTpHSZxS4LPIuxOVLfxV8D0k/hjJKY=
 			</data>
 		</dict>
 		<key>Headers/DesignWebTool.h</key>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bx+n+qUoTXWoWthQArkkB03P84Plw9ieCspq2r81RoI=
+			z/iA1G2L2a0V/73nV42CU68h1zbwSDW8xcWSbR3aewI=
 			</data>
 		</dict>
 		<key>Modules/DesignWebTool.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZKu+r+/vQ2lt2WNoJ+CtWZMs2TM2iQ8H6iO9RJwUNzg=
+			7P1O7bbrfm4LGy6pcMoNJt09sO792CvFieUQ8Imyt0Q=
 			</data>
 		</dict>
 		<key>Modules/DesignWebTool.swiftmodule/arm64.swiftdoc</key>
@@ -104,14 +104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bx+n+qUoTXWoWthQArkkB03P84Plw9ieCspq2r81RoI=
+			z/iA1G2L2a0V/73nV42CU68h1zbwSDW8xcWSbR3aewI=
 			</data>
 		</dict>
 		<key>Modules/DesignWebTool.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZKu+r+/vQ2lt2WNoJ+CtWZMs2TM2iQ8H6iO9RJwUNzg=
+			7P1O7bbrfm4LGy6pcMoNJt09sO792CvFieUQ8Imyt0Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -33,9 +33,8 @@ extension DesignWebToolViewController : WebKit.WKNavigationDelegate, WebKit.WKSc
   @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationResponse: WebKit.WKNavigationResponse, decisionHandler: @escaping (WebKit.WKNavigationResponsePolicy) -> Swift.Void)
   @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class SharedDesignToolController : DesignWebTool.DesignWebToolViewController {
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String? = nil, bundle nibBundleOrNil: Foundation.Bundle? = nil)
-  final public func set(model: DesignWebTool.WebToolModel, delegate: DesignWebTool.NavigationProtocol?)
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class SharedDesignToolController : DesignWebTool.DesignWebToolViewController {
+  convenience public init(model: DesignWebTool.WebToolModel, delegate: DesignWebTool.NavigationProtocol?)
   @objc deinit
 }
 public enum Status {
