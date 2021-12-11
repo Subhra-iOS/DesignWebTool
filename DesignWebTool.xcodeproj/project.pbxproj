@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A11D6262764A52A00B056B4 /* DesignWebToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A11D6252764A52A00B056B4 /* DesignWebToolTests.swift */; };
+		2A11D6282764A52A00B056B4 /* DesignWebTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA0F90E2761DEDE00F27BE8 /* DesignWebTool.framework */; };
+		2A11D6312764A71C00B056B4 /* ModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A11D6302764A71C00B056B4 /* ModelProtocol.swift */; };
+		2A11D6342764A72800B056B4 /* ModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A11D6302764A71C00B056B4 /* ModelProtocol.swift */; };
 		2AA0F9132761DEDE00F27BE8 /* DesignWebTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AA0F9112761DEDE00F27BE8 /* DesignWebTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AA0F9242761E15700F27BE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0F9232761E15700F27BE8 /* AppDelegate.swift */; };
 		2AA0F9262761E15700F27BE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0F9252761E15700F27BE8 /* SceneDelegate.swift */; };
@@ -31,6 +35,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2A11D6292764A52A00B056B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AA0F9052761DEDE00F27BE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AA0F90D2761DEDE00F27BE8;
+			remoteInfo = DesignWebTool;
+		};
 		2AA0F9A52762397500F27BE8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2AA0F9052761DEDE00F27BE8 /* Project object */;
@@ -55,6 +66,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A11D6232764A52A00B056B4 /* DesignWebToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignWebToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A11D6252764A52A00B056B4 /* DesignWebToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignWebToolTests.swift; sourceTree = "<group>"; };
+		2A11D6272764A52A00B056B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A11D6302764A71C00B056B4 /* ModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProtocol.swift; sourceTree = "<group>"; };
 		2AA0F90E2761DEDE00F27BE8 /* DesignWebTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignWebTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA0F9112761DEDE00F27BE8 /* DesignWebTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignWebTool.h; sourceTree = "<group>"; };
 		2AA0F9122761DEDE00F27BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +96,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2A11D6202764A52A00B056B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A11D6282764A52A00B056B4 /* DesignWebTool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2AA0F90B2761DEDE00F27BE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,11 +122,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A11D6242764A52A00B056B4 /* DesignWebToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A11D6252764A52A00B056B4 /* DesignWebToolTests.swift */,
+				2A11D6272764A52A00B056B4 /* Info.plist */,
+			);
+			path = DesignWebToolTests;
+			sourceTree = "<group>";
+		};
 		2AA0F9042761DEDE00F27BE8 = {
 			isa = PBXGroup;
 			children = (
 				2AA0F9102761DEDE00F27BE8 /* DesignWebTool */,
 				2AA0F9222761E15700F27BE8 /* DesignWebToolDemo */,
+				2A11D6242764A52A00B056B4 /* DesignWebToolTests */,
 				2AA0F90F2761DEDE00F27BE8 /* Products */,
 				2AA0F97E276229DB00F27BE8 /* Frameworks */,
 			);
@@ -114,6 +147,7 @@
 			children = (
 				2AA0F90E2761DEDE00F27BE8 /* DesignWebTool.framework */,
 				2AA0F9212761E15600F27BE8 /* DesignWebToolDemo.app */,
+				2A11D6232764A52A00B056B4 /* DesignWebToolTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -221,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				2AA0F96E27620FDC00F27BE8 /* WebToolModel.swift */,
+				2A11D6302764A71C00B056B4 /* ModelProtocol.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -246,6 +281,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2A11D6222764A52A00B056B4 /* DesignWebToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A11D62D2764A52A00B056B4 /* Build configuration list for PBXNativeTarget "DesignWebToolTests" */;
+			buildPhases = (
+				2A11D61F2764A52A00B056B4 /* Sources */,
+				2A11D6202764A52A00B056B4 /* Frameworks */,
+				2A11D6212764A52A00B056B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A11D62A2764A52A00B056B4 /* PBXTargetDependency */,
+			);
+			name = DesignWebToolTests;
+			productName = DesignWebToolTests;
+			productReference = 2A11D6232764A52A00B056B4 /* DesignWebToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2AA0F90D2761DEDE00F27BE8 /* DesignWebTool */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AA0F9162761DEDE00F27BE8 /* Build configuration list for PBXNativeTarget "DesignWebTool" */;
@@ -292,6 +345,9 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					2A11D6222764A52A00B056B4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					2AA0F90D2761DEDE00F27BE8 = {
 						CreatedOnToolsVersion = 12.4;
 						LastSwiftMigration = 1240;
@@ -316,11 +372,19 @@
 			targets = (
 				2AA0F90D2761DEDE00F27BE8 /* DesignWebTool */,
 				2AA0F9202761E15600F27BE8 /* DesignWebToolDemo */,
+				2A11D6222764A52A00B056B4 /* DesignWebToolTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2A11D6212764A52A00B056B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2AA0F90C2761DEDE00F27BE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,11 +406,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2A11D61F2764A52A00B056B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A11D6262764A52A00B056B4 /* DesignWebToolTests.swift in Sources */,
+				2A11D6342764A72800B056B4 /* ModelProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2AA0F90A2761DEDE00F27BE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2AA0F96F27620FDC00F27BE8 /* WebToolModel.swift in Sources */,
+				2A11D6312764A71C00B056B4 /* ModelProtocol.swift in Sources */,
 				2AA0F94A2761EF9300F27BE8 /* DesignWebToolViewController+Disposal.swift in Sources */,
 				2AA0F965276204A200F27BE8 /* WebAPIManager.swift in Sources */,
 				2AA0F9392761E22200F27BE8 /* DesignWebToolViewController.swift in Sources */,
@@ -373,6 +447,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2A11D62A2764A52A00B056B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AA0F90D2761DEDE00F27BE8 /* DesignWebTool */;
+			targetProxy = 2A11D6292764A52A00B056B4 /* PBXContainerItemProxy */;
+		};
 		2AA0F9A62762397500F27BE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2AA0F90D2761DEDE00F27BE8 /* DesignWebTool */;
@@ -400,6 +479,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2A11D62B2764A52A00B056B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QCVS5M6Q4;
+				INFOPLIST_FILE = DesignWebToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARCDemo.DesignWebToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A11D62C2764A52A00B056B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QCVS5M6Q4;
+				INFOPLIST_FILE = DesignWebToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARCDemo.DesignWebToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		2AA0F9142761DEDE00F27BE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -622,6 +737,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2A11D62D2764A52A00B056B4 /* Build configuration list for PBXNativeTarget "DesignWebToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A11D62B2764A52A00B056B4 /* Debug */,
+				2A11D62C2764A52A00B056B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2AA0F9082761DEDE00F27BE8 /* Build configuration list for PBXProject "DesignWebTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -84,7 +84,7 @@ public class DesignWebToolViewController: UIViewController {
         self.webViewServiceDetails.loadHTMLString("", baseURL: nil)
     }
     
-    fileprivate func loadWebAPI() {
+    func loadWebAPI() {
         let concurrentQueue = DispatchQueue(label: "DesignQueue", attributes: .concurrent)
         concurrentQueue.sync {  [weak self] in
             guard let weakSelf = self else { return }

@@ -27,11 +27,16 @@ class ViewController: UIViewController {
     }
     
     private func openDesignTool(){
-        let shareDesignTool = SharedDesignToolController()
-        shareDesignTool.set(model: WebToolModel(url: URL(string: "https://en.wikipedia.org/wiki/Code_coverage")!,
-            method: "get",
-            uiModel: UIModel(navBarColor: UIColor.systemBackground, navBarTextColor: UIColor.white, dismissBtnText: "Back", navBarTitle: "Design Tool")),
-            delegate: self)
+        let shareDesignTool = SharedDesignToolController(
+                              model: WebToolModel(url: URL(string: "https://en.wikipedia.org/wiki/Code_coverage")!,
+                                                  method: "get",
+                              uiModel: UIModel(navBarColor: UIColor.systemBackground,
+                                               navBarTextColor: UIColor.white,
+                                               dismissBtnText: "Back",
+                                               navBarTitle: "Design Tool")),
+                              delegate: self
+        )
+        
         self.navigationController?.pushViewController(shareDesignTool, animated: true)
     }
 

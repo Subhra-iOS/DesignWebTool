@@ -8,15 +8,16 @@
 import Foundation
 import UIKit
 
-public final class SharedDesignToolController: DesignWebToolViewController{
-        
-    public override init(nibName nibNameOrNil: String? = nil, bundle nibBundleOrNil: Bundle? = nil) {
-        super.init(nibName: Nib.DesignNibFile, bundle: Bundle.main)
-    }
+public class SharedDesignToolController: DesignWebToolViewController{
     
-    public override func set( model: WebToolModel,
-                     delegate: NavigationProtocol?){
+    public convenience init( model: WebToolModel,
+                 delegate: NavigationProtocol?){
+        self.init(nibName: nil, bundle: nil)
         super.set(model: model, delegate: delegate)
+    }
+        
+    override init(nibName nibNameOrNil: String? = nil, bundle nibBundleOrNil: Bundle? = nil) {
+        super.init(nibName: Nib.DesignNibFile, bundle: Bundle.main)
     }
     
     required init?(coder: NSCoder) {

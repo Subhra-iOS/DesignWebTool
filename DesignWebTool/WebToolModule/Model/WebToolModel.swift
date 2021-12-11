@@ -8,12 +8,12 @@
 import Foundation
 import UIKit
 
-public struct WebToolModel {
-     let url: URL
-     let header: [String: String]?
-     let param: [String: Any]?
-     let method: String
-     let uiModel: UIModel
+public struct WebToolModel: WebToolModelProtocol {
+    var url: URL
+    var header: [String: String]?
+    var param: [String: Any]?
+    var method: String
+    let uiModel: UIModel
      
     
     public init(url: URL,
@@ -29,11 +29,11 @@ public struct WebToolModel {
     }
 }
 
-public struct UIModel{
-    let navBarColor: UIColor
-    let navBarTextColor: UIColor
-    let dismissBtnText: String
-    let navBarTitle: String
+public struct UIModel : UIModelProtocol{
+    var navBarColor: UIColor
+    var navBarTextColor: UIColor
+    var dismissBtnText: String
+    var navBarTitle: String
     
     public init(navBarColor: UIColor,
                 navBarTextColor: UIColor,
