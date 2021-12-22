@@ -22,7 +22,7 @@ class DesignWebToolTests: XCTestCase {
         let webModel: WebToolModelStub = WebToolModelStub(
             url: URL(string: "https://en.wikipedia.org/wiki/Code_coverage")!,
             method: "get",
-            uiModel: UIModel(navBarColor: UIColor.systemBackground,
+            uiModel: UIModelStub(navBarColor: UIColor.systemBackground,
                              navBarTextColor: UIColor.white,
                              dismissBtnText: "Back",
                              navBarTitle: "Design Tool"))
@@ -34,7 +34,7 @@ class DesignWebToolTests: XCTestCase {
         let webModel: WebToolModelStub = WebToolModelStub(
             url: URL(string: "https://en.wikipedia.org/wiki/Code_coverage")!,
             method: "get",
-            uiModel: UIModel(navBarColor: UIColor.systemBackground,
+            uiModel: UIModelStub(navBarColor: UIColor.systemBackground,
                              navBarTextColor: UIColor.white,
                              dismissBtnText: "Back",
                              navBarTitle: "Design Tool"))
@@ -84,13 +84,13 @@ private class WebToolModelStub: WebToolModelProtocol{
     var header: [String: String]?
     var param: [String: Any]?
     var method: String
-    let uiModel: UIModel
+    let uiModel: UIModelStub
     
     init(url: URL,
          header: [String: String]? = nil,
          param: [String: Any]? = nil,
          method: String,
-         uiModel: UIModel = UIModel(navBarColor: UIColor.systemBackground, navBarTextColor: UIColor.secondarySystemBackground, dismissBtnText: "Back", navBarTitle: "Design Tool")){
+         uiModel: UIModelStub = UIModelStub(navBarColor: UIColor.systemBackground, navBarTextColor: UIColor.secondarySystemBackground, dismissBtnText: "Back", navBarTitle: "Design Tool")){
         self.url = url
         self.header = header
         self.param = param
