@@ -11,7 +11,7 @@ import WebKit
 public class DesignWebToolViewController: UIViewController {
     
     private var webViewServiceDetails: WKWebView!
-    weak var navigationDelegate: NavigationProtocol?
+    private weak var navigationDelegate: NavigationProtocol?
     private var viewModel: WebToolViewModel!
     private var model: WebToolModel!
     private var navigationBarColor: UIColor = .white
