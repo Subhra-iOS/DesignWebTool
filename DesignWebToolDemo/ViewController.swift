@@ -12,6 +12,12 @@ struct NavigationColor {
     static let navColor : UIColor = UIColor(red: (255.0/255.0), green: (23.0/255.0), blue: (77.0/255.0), alpha: 1.0)
 }
 
+private enum Constant{
+    enum Handler{
+        static let  preview = "previewHandler"
+    }
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -33,7 +39,8 @@ class ViewController: UIViewController {
                               uiModel: UIModel(navBarColor: UIColor.systemBackground,
                                                navBarTextColor: UIColor.white,
                                                dismissBtnText: "Back",
-                                               navBarTitle: "Design Tool")),
+                                               navBarTitle: "Design Tool"),
+                              selector: Constant.Handler.preview),
                               delegate: self
         )
         

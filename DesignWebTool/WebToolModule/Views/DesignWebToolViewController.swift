@@ -61,7 +61,13 @@ public class DesignWebToolViewController: UIViewController {
     }
     
     public override func loadView() {
-        webViewServiceDetails = FactoryController.creatWebKitView(for: self)
+        guard self.model != nil else{
+            webViewServiceDetails = FactoryController.creatWebKitView(for: self, selector: Constant.Handler.preview)
+            view = webViewServiceDetails
+            return
+        }
+        let _selector: String = self.model.selector ?? Constant.Handler.preview
+        webViewServiceDetails = FactoryController.creatWebKitView(for: self, selector: _selector)
         view = webViewServiceDetails
     }
     
