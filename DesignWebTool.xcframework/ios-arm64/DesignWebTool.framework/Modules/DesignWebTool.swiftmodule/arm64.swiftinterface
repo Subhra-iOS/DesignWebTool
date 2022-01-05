@@ -7,7 +7,7 @@ import Swift
 import UIKit
 import WebKit
 public struct WebToolModel {
-  public init(url: Foundation.URL, header: [Swift.String : Swift.String]? = nil, param: [Swift.String : Any]? = nil, method: Swift.String, uiModel: DesignWebTool.UIModel = UIModel(navBarColor: UIColor.systemBackground, navBarTextColor: UIColor.secondarySystemBackground, dismissBtnText: "Back", navBarTitle: "Design Tool"))
+  public init(url: Foundation.URL, header: [Swift.String : Swift.String]? = nil, param: [Swift.String : Any]? = nil, method: Swift.String, uiModel: DesignWebTool.UIModel = UIModel(navBarColor: UIColor.systemBackground, navBarTextColor: UIColor.secondarySystemBackground, dismissBtnText: "Back", navBarTitle: "Design Tool"), selector: Swift.String? = nil)
 }
 public struct UIModel {
   public init(navBarColor: UIKit.UIColor, navBarTextColor: UIKit.UIColor, dismissBtnText: Swift.String, navBarTitle: Swift.String)

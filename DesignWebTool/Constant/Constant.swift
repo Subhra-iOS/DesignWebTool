@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Consatnt{
+enum Constant{
     enum Handler{
         static let  preview = "previewHandler"
     }

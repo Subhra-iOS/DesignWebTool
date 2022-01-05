@@ -14,6 +14,7 @@ protocol WebToolModelProtocol{
     var header: [String: String]? { get set }
     var param: [String: Any]? { get set }
     var method: String { get set }
+    var selector: String? { get set }
     
 }
 

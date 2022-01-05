@@ -16,9 +16,9 @@ struct FactoryController {
         return cancelBtn
     }
     
-    static func creatWebKitView(for handler: WKNavigationDelegate) -> WKWebView{
+    static func creatWebKitView(for handler: WKNavigationDelegate, selector: String) -> WKWebView{
         let contentController = WKUserContentController()
-        contentController.add(handler as! WKScriptMessageHandler, name: Consatnt.Handler.preview) 
+        contentController.add(handler as! WKScriptMessageHandler, name: selector)
         
         let webConfiguration = WKWebViewConfiguration()
         webConfiguration.userContentController = contentController

@@ -80,6 +80,7 @@ private class TestableShareViewConroller: SharedDesignToolController{
 }
 
 private class WebToolModelStub: WebToolModelProtocol{
+    var selector: String?
     var url: URL
     var header: [String: String]?
     var param: [String: Any]?
@@ -90,12 +91,14 @@ private class WebToolModelStub: WebToolModelProtocol{
          header: [String: String]? = nil,
          param: [String: Any]? = nil,
          method: String,
-         uiModel: UIModelStub = UIModelStub(navBarColor: UIColor.systemBackground, navBarTextColor: UIColor.secondarySystemBackground, dismissBtnText: "Back", navBarTitle: "Design Tool")){
+         uiModel: UIModelStub = UIModelStub(navBarColor: UIColor.systemBackground, navBarTextColor: UIColor.secondarySystemBackground, dismissBtnText: "Back", navBarTitle: "Design Tool"),
+         selector: String? = Constant.Handler.preview){
         self.url = url
         self.header = header
         self.param = param
         self.method = method
         self.uiModel = uiModel
+        self.selector = selector
     }
 }
 
